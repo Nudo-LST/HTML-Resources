@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Pla</title>
+</head>
+<body onload="pla(250)">
+<button onclick="randomRange(2,8)">Click</button>
+<p>1</p>
+</body>
+<script>
+function randomRange(myMin,myMax){
+	document.querySelector("p").innerText = Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+}
+
+function pla(pl){
+	let kilo = 0;
+
+	while(kilo < 365){
+		pl = pl + ((pl * 10) / 100);
+		kilo++;
+	}
+	return pl;
+}
+
+alert(pla(250));
+</script>
+</html>
+
+
