@@ -1,0 +1,17 @@
+[
+  {
+    "1": [
+      {
+        "OtherName": "Volatility 250 (1s) Index",
+        "approved": false,
+        "symbol": "Volatility 250 (1s) Index",
+        "market": "Synthetic Indices",
+        "length": "25",
+        "fullName": "",
+        "Tick Value": 0.01
+      }
+    ]
+  },
+  { "4": [4] },
+  { "9": [9] }
+]
